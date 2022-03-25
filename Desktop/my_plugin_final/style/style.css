@@ -1,0 +1,117 @@
+body {
+  background-color: #362785;
+  /* overflow: hidden; */
+}
+
+* {
+  font-family: Poppins;
+}
+
+.container {
+  background: #fff;
+  z-index: 99;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 500px;
+  padding: 20px 15px 0px 15px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  /* border: solid 1px #5C4EA0; */
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 14px 14px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #5c4ea0;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 0 0 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+  background-color: #362785;
+}
+
+/* .title {
+    margin-top: 40px;
+    text-align: center;
+    color: #1fc1e5;
+    color: #fff;
+} */
+.title {
+  z-index: 11;
+  font-family: Poppins;
+  color: rgb(255, 255, 255);
+  line-height: 23px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.effyisPay {
+  z-index: 10;
+  font-family: Poppins;
+  color: rgb(255, 255, 255);
+  line-height: 66px;
+  font-weight: 600;
+  font-size: 54px;
+  margin: 10px 0;
+}
+
+.logo {
+  margin-top: 15px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 13px 17px;
+  width: 30px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+select {
+  padding-right: 20px;
+}
+
+select:required:invalid {
+  color: gray;
+}
+
+option {
+  color: black;
+}
+
+.label {
+  text-align: center;
+  text-transform: uppercase;
+  color: #5c4ea0;
+}
+.titleBlock {
+  /* align-items: center; */
+  text-align: center;
+}
+.blockWithImg {
+  position: relative;
+  /* left: 100px; */
+}
+
+@media screen and (max-width: 1050px) {
+  .blockWithImg {
+    display: none;
+  }
+  .container {
+    width: 80%;
+  }
+}

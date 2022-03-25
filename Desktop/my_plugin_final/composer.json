@@ -1,0 +1,17 @@
+{
+    "name": "pc/my_plugin",
+    "description": "EffyisPay Plugin",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "elmehdiazhoune",
+            "email": "elmehdi.azhoune@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}
